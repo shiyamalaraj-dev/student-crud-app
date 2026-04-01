@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>🎓 Student Manager</h2>
+
+  <!-- Add Student -->
+  <input type="text" id="name" placeholder="Enter Name">
+  <input type="text" id="course" placeholder="Enter Course">
+  <button onclick="addStudent()">Add Student</button>
+
+  <!-- Search -->
+  <input type="text" id="search" placeholder="Search..." onkeyup="searchStudent()">
+
+  <!-- Cards -->
+  <div id="cardContainer"></div>
+</div>
+
+<!-- Edit Modal -->
+<div id="editModal" class="modal">
+  <div class="modal-content">
+    <h3>Edit Student</h3>
+    <input type="text" id="editName">
+    <input type="text" id="editCourse">
+    <button onclick="updateStudent()">Update</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
