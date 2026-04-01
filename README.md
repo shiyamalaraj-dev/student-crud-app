@@ -45,7 +45,7 @@ A simple and user-friendly CRUD (Create, Read, Update, Delete) web application b
 
 ## 🌐 Live Demo
 
-👉  https://shiyamalaraj-dev.github.io/student-crud-app/
+👉   https://shiyamalaraj-dev.github.io/student-crud-app
 
 ---
 
